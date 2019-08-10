@@ -4,7 +4,6 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		args = new String[] { "direct" };
 		if (args.length == 0) {
 			System.out.println("Usage: [direct / heap]");
 			System.exit(1);
